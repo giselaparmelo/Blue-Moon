@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: azure;
+}
+
+.navColor{
+   background-color: rgb(16, 3, 69);
+}
+
+.logoNavBar{
+    width: 150px;
+    height: 120px;
+    border: 1px rgb(255, 254, 254) solid;
+    border-radius: 3px;
+}
+
+
+.fondoMainProd{
+    background-color: rgb(43, 160, 199);
+}
+
+.tarjetaProductos{
+    background-color: rgb(113, 249, 249);
+    border: 2px black solid;   
+    img{
+       height: 350px;
+       width: auto; 
+    }
+    
+}
+
+h1{
+    font-family:'Roboto', sans-serif;
+    color: rgb(24, 22, 22);
+    font-weight:600;
+}
+
+h2{
+    font-family:'Roboto', sans-serif;
+    color: rgb(24, 22, 22);
+    font-weight: 500;
+}
+
+.imgSection{   
+    border: 5px solid black;
+}
+
+
+footer{
+    background-color:rgb(16, 16, 17);
+    color: white;
+}
+
+footer h2{
+    color: white;
+}
+.carousel-inner img {
+    height: 500px;
+    width: auto;
+}
+
+
+.displayNoRelative{
+    display: inline-block;
+    display: flex;
+    position:unset
+}
