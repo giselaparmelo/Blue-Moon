@@ -20,6 +20,10 @@ body{
     border-radius: 3px;
 }
 
+a:hover{
+    background-color:rgb(35, 20, 97);
+    font-weight: bold;
+}
 
 .fondoMainProd{
     background-color: rgb(43, 160, 199);
@@ -32,8 +36,18 @@ body{
        height: 350px;
        width: auto; 
     }
-    
 }
+
+@media (max-width:768px){
+    .prodResponsive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 5px;
+    }
+}
+
 
 h1{
     font-family:'Roboto', sans-serif;
@@ -51,6 +65,12 @@ h2{
     border: 5px solid black;
 }
 
+.btn2:hover{
+    background-color: aquamarine;
+    cursor:pointer;
+    border: 2px black solid;
+    font-weight: bold;
+}
 
 footer{
     background-color:rgb(16, 16, 17);
@@ -65,6 +85,11 @@ footer h2{
     width: auto;
 }
 
+@media (max-width:768px){
+    .noImg{
+        display: none;
+    }
+}
 
 .displayNoRelative{
     display: inline-block;
