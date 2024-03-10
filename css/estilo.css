@@ -39,6 +39,8 @@ a:hover{
     }
 }
 
+
+
 @media (max-width:768px){
     .prodResponsive{
     display: flex;
@@ -80,6 +82,18 @@ footer{
 footer h2{
     color: white;
 }
+
+.iconoWsp{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    .fa-whatsapp{
+        color: rgb(37, 211, 102);
+        font-size: 50px;
+    }
+
+}
+
 
 @media (max-width:768px){
     .noImg{
