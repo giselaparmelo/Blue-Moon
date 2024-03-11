@@ -1,121 +1,107 @@
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&family=Ubuntu:ital,wght@0,300;1,300&display=swap");
+* {
+  box-sizing: border-box;
 }
+
 /*Fuentes*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: azure;
-    background-image: linear-gradient(to right bottom, #2626e9, #0053f8, #0072ff, #008cfe, #00a4f9, #00aef2, #00b5e8, #00bcdd, #00bad2, #00b8c7, #01b6bc, #1bb3b0);
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: azure;
+  background-image: linear-gradient(to right bottom, #2626e9, #0053f8, #0072ff, #008cfe, #00a4f9, #00aef2, #00b5e8, #00bcdd, #00bad2, #00b8c7, #01b6bc, #1bb3b0);
 }
 
-.navColor{
-   background-color: rgb(16, 3, 69);
+.navColor {
+  background-color: rgb(16, 3, 69);
 }
 
-.logoNavBar{
-    width: 150px;
-    height: 120px;
-    border: 1px rgb(255, 254, 254) solid;
-    border-radius: 3px;
+.logoNavBar {
+  width: 150px;
+  height: 120px;
+  border: 1px rgb(255, 254, 254) solid;
+  border-radius: 3px;
 }
 
-a:hover{
-    background-color:rgb(35, 20, 97);
-    font-weight: bold;
+a:hover {
+  background-color: rgb(35, 20, 97);
+  font-weight: bold;
 }
 
-
-
-.tarjetaProductos{
-    background-color: rgb(113, 249, 249);
-    border: 1px black solid;
-   
-    
-    
-    img{
-       height: 350px;
-       width: auto; 
-    }
+.tarjetaProductos {
+  background-color: rgb(113, 249, 249);
+  border: 1px black solid;
+}
+.tarjetaProductos img {
+  height: 350px;
+  width: auto;
 }
 
-
-
-@media (max-width:768px){
-    .prodResponsive{
+@media (max-width: 768px) {
+  .prodResponsive {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 5px;
-    }
+  }
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(24, 22, 22);
+  font-weight: 600;
 }
 
-
-h1{
-    font-family:'Roboto', sans-serif;
-    color: rgb(24, 22, 22);
-    font-weight:600;
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(24, 22, 22);
+  font-weight: 500;
 }
 
-h2{
-    font-family:'Roboto', sans-serif;
-    color: rgb(24, 22, 22);
-    font-weight: 500;
+.imgSection {
+  border: 5px solid black;
 }
 
-.imgSection{   
-    border: 5px solid black;
+.btn2:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+  border: 2px black solid;
+  font-weight: bold;
 }
 
-
-.btn2:hover{
-    background-color: aquamarine;
-    cursor:pointer;
-    border: 2px black solid;
-    font-weight: bold;
+footer {
+  background-color: rgb(16, 16, 17);
+  color: white;
+}
+footer .iconoWsp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+footer .iconoWsp .fa-whatsapp {
+  color: rgb(37, 211, 102);
+  font-size: 3rem;
+}
+footer .fa-instagram {
+  font-size: 2rem;
+}
+footer .fa-facebook {
+  font-size: 2rem;
+}
+footer .fa-x-twitter {
+  font-size: 2rem;
 }
 
-footer{
-    background-color:rgb(16, 16, 17);
-    color: white;
-    .iconoWsp{
-        position: fixed;
-        right:20px;
-        bottom: 20px;
-        .fa-whatsapp{
-            color: rgb(37, 211, 102);
-            font-size: 3rem;
-        }
-    
-    }
-    .fa-instagram{
-        font-size: 2rem;
-    }
-    .fa-facebook{
-        font-size: 2rem;
-    }
-    .fa-x-twitter{
-        font-size: 2rem;
-    }
-
-    
+footer h2 {
+  color: white;
 }
 
-footer h2{
-    color: white;
+@media (max-width: 768px) {
+  .noImg {
+    display: none;
+  }
+}
+.displayNoRelative {
+  display: inline-block;
+  display: flex;
+  position: unset;
 }
 
-
-
-@media (max-width:768px){
-    .noImg{
-        display: none;
-    }
-}
-
-.displayNoRelative{
-    display: inline-block;
-    display: flex;
-    position:unset
-}
+/*# sourceMappingURL=estilo.css.map */
