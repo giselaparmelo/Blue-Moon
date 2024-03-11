@@ -7,6 +7,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: azure;
+    background-image: linear-gradient(to right bottom, #2626e9, #0053f8, #0072ff, #008cfe, #00a4f9, #00aef2, #00b5e8, #00bcdd, #00bad2, #00b8c7, #01b6bc, #1bb3b0);
 }
 
 .navColor{
@@ -25,14 +26,14 @@ a:hover{
     font-weight: bold;
 }
 
-.fondoMainProd{
-    background-color: rgb(43, 160, 199);
-}
+
 
 .tarjetaProductos{
     background-color: rgb(113, 249, 249);
-    border: 2px black solid;
-    width: 80%; 
+    border: 1px black solid;
+   
+    
+    
     img{
        height: 350px;
        width: auto; 
@@ -67,6 +68,7 @@ h2{
     border: 5px solid black;
 }
 
+
 .btn2:hover{
     background-color: aquamarine;
     cursor:pointer;
@@ -77,22 +79,33 @@ h2{
 footer{
     background-color:rgb(16, 16, 17);
     color: white;
+    .iconoWsp{
+        position: fixed;
+        right:10px;
+        bottom: 10px;
+        .fa-whatsapp{
+            color: rgb(37, 211, 102);
+            font-size: 3rem;
+        }
+    
+    }
+    .fa-instagram{
+        font-size: 2rem;
+    }
+    .fa-facebook{
+        font-size: 2rem;
+    }
+    .fa-x-twitter{
+        font-size: 2rem;
+    }
+
+    
 }
 
 footer h2{
     color: white;
 }
 
-.iconoWsp{
-    position: fixed;
-    right:10px;
-    bottom: 10px;
-    .fa-whatsapp{
-        color: rgb(37, 211, 102);
-        font-size: 50px;
-    }
-
-}
 
 
 @media (max-width:768px){
