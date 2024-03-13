@@ -1,0 +1,29 @@
+footer{
+    background-color:rgb(16, 16, 17);
+    color: white;
+    .iconoWsp{
+        position: fixed;
+        right:20px;
+        bottom: 20px;
+        .fa-whatsapp{
+            color: rgb(37, 211, 102);
+            font-size: 3rem;
+        }
+    
+    }
+    .fa-instagram{
+        font-size: 2rem;
+    }
+    .fa-facebook{
+        font-size: 2rem;
+    }
+    .fa-x-twitter{
+        font-size: 2rem;
+    }
+
+    
+}
+
+footer h2{
+    color: white;
+}

@@ -1,0 +1,8 @@
+.btn2{
+    &:hover{
+        background-color: map-get($colores , aquamarine);
+        cursor: pointer;
+        border: $border-secondary;
+        font-weight: bold;
+    }
+}

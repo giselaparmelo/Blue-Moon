@@ -1,0 +1,16 @@
+@media (max-width:768px){
+    .tarjetaProductos{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .noImg{
+        display: none;
+    }
+}
+.displayNoRelative{
+    display: inline-block;
+    display: flex;
+    position:unset
+}

@@ -1,12 +1,25 @@
+/*Fuentes*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/*Mapa de colores*/
 * {
   box-sizing: border-box;
 }
 
-/*Fuentes*/
 body {
   font-family: "Roboto", sans-serif;
   background-image: linear-gradient(to right bottom, #2626e9, #0053f8, #0072ff, #008cfe, #00a4f9, #00aef2, #00b5e8, #00bcdd, #00bad2, #00b8c7, #01b6bc, #1bb3b0);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #181616;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #181616;
+  font-weight: 500;
 }
 
 .navColor {
@@ -28,7 +41,6 @@ a:hover {
 .tarjetaProductos {
   background-color: #71f9f9;
   border: 1px black solid;
-  border: 1px solid black;
   border-radius: 5px;
   width: 300px;
   margin: 5px;
@@ -38,35 +50,27 @@ a:hover {
   height: 350px;
 }
 
+.btn2:hover {
+  background-color: #7fffd4;
+  cursor: pointer;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
-  .prodResponsive {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 5px;
-    width: 100%;
-  }
   .tarjetaProductos {
     width: 100%;
   }
 }
-h1 {
-  font-family: "Roboto", sans-serif;
-  color: #181616;
-  font-weight: 600;
+@media (max-width: 768px) {
+  .noImg {
+    display: none;
+  }
 }
-
-h2 {
-  font-family: "Roboto", sans-serif;
-  color: #181616;
-  font-weight: 500;
-}
-
-.btn2:hover {
-  background-color: #7fffd4;
-  cursor: pointer;
-  border: 2px black solid;
-  font-weight: bold;
+.displayNoRelative {
+  display: inline-block;
+  display: flex;
+  position: unset;
 }
 
 footer {
@@ -94,15 +98,4 @@ footer .fa-x-twitter {
 
 footer h2 {
   color: white;
-}
-
-@media (max-width: 768px) {
-  .noImg {
-    display: none;
-  }
-}
-.displayNoRelative {
-  display: inline-block;
-  display: flex;
-  position: unset;
 }/*# sourceMappingURL=estilo.css.map */
