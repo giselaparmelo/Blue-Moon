@@ -6,7 +6,7 @@
     <script src="https://kit.fontawesome.com/1ce4de538e.js" crossorigin="anonymous"></script>
     <title>Tienda BlueMoon</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">        
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
   </head>
   <body>
@@ -16,71 +16,168 @@
           <a class="navbar-brand" href="../index.html">
             <img class="logoNavBar" src="../assets/img/logo.png" alt="Logo Tienda Blue Moon">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
               <li class="nav-item mt-1 mb-1 p-1">
-                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page"
+                  href="../index.html">Inicio</a>
               </li>
               <li class="nav-item mt-1 mb-1 p-1">
-                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page"  href="./productos.html">Productos</a>
+                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page"
+                  href="./productos.html">Productos</a>
               </li>
               <li class="nav-item mt-1 mb-1 p-1">
-                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page" href="./nosotros.html">Nosotros</a>
+                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page"
+                  href="./nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item mt-1 mb-1 p-1">
-                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page" href="./ubicacion.html">Encontranos</a>
+                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page"
+                  href="./ubicacion.html">Encontranos</a>
               </li>
               <li class="nav-item mt-1 mb-1 p-1">
-                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page" href="./contacto.html">Contacto</a></a>
+                <a class="nav-link active text-white p-3 mb-2 fs-4 border border-light rounded" aria-current="page"
+                  href="./contacto.html">Contacto</a></a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
     <main class="container">
       <h1 class="text-center mb-2 mt-2">Nuestros Productos</h1>
       <!-- Card de Productos MANGAS -->
       <section class="mb-2 mt-2">
         <h2 class="text-center">Disfruta del mejor manga con nosotros!</h2>
         <div class="row justify-content-center">
-          <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative"> 
+          <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Attack On Titan</h2>
-            <img src="../assets/img/prod_manga_1.jpg" class="card-img-top border border-dark" alt="Tapa del tomo número 34 del manga Attack On Titan">
-            <div class="card-body">                  
+            <img src="../assets/img/prod_manga_1.jpg" class="card-img-top border border-dark"
+              alt="Tapa del tomo número 34 del manga Attack On Titan">
+            <div class="card-body">
               <p class="card-text">Tomo número 34 de Attack On Titan!</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </section> 
+          </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Jujutsu Kaisen</h2>
-            <img src="../assets/img/prod_manga_2.jpg" class="card-img-top border border-dark" alt="Tapa del tomo número 1 del manga Jujutsu Kaisen">
-            <div class="card-body">                  
+            <img src="../assets/img/prod_manga_2.jpg" class="card-img-top border border-dark"
+              alt="Tapa del tomo número 1 del manga Jujutsu Kaisen">
+            <div class="card-body">
               <p class="card-text">Tomo número 1 de Jujutsu Kaisen.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos  displayNoRelative">
             <h2 class="card-title">One piece</h2>
-            <img src="../assets/img/prod_manga_3.jpg" class="card-img-top border border-dark" alt="Tapa del tomo número 1 del manga One Piece">
-            <div class="card-body">                  
+            <img src="../assets/img/prod_manga_3.jpg" class="card-img-top border border-dark"
+              alt="Tapa del tomo número 1 del manga One Piece">
+            <div class="card-body">
               <p class="card-text">Tomo número 1 de One Piece.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Demon Slayer</h2>
-            <img src="../assets/img/prod_manga_4.jpg" class="card-img-top border border-dark" alt="Tapa del tomo número 18 del manga Demon Slayer">
-            <div class="card-body">                  
+            <img src="../assets/img/prod_manga_4.jpg" class="card-img-top border border-dark"
+              alt="Tapa del tomo número 18 del manga Demon Slayer">
+            <div class="card-body">
               <p class="card-text">Tomo número 18 de Demon Slayer.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
-        </div>                 
+        </div>
       </section>
       <!-- Card de productos FIGURAS -->
       <section class="mb-2 mt-2">
@@ -88,37 +185,134 @@
         <div class="row justify-content-center">
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Gohan SSJ (Joven)</h2>
-            <img src="../assets/img/figuras_1.jpg" class="card-img-top border border-dark" alt="Figura del personaje Gohan de Dragon Ball Z">
-            <div class="card-body">                  
-              <p class="card-text">Banpresto presenta para la popular línea de figuras Master Stars Piece esta figura de Son Gohan basada en el popular manga y anime "Dragon Ball Z". Esta figura de PVC, mide unos 20 cm.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center ">Comprar</a>
+            <img src="../assets/img/figuras_1.jpg" class="card-img-top border border-dark"
+              alt="Figura del personaje Gohan de Dragon Ball Z">
+            <div class="card-body">
+              <p class="card-text">Banpresto presenta para la popular línea de figuras Master Stars Piece esta figura de
+                Son Gohan basada en el popular manga y anime "Dragon Ball Z". Esta figura de PVC, mide unos 20 cm.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </section> 
+          </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Mikasa Ackerman</h2>
-            <img src="../assets/img/figuras_2.jpg" class="card-img-top border border-dark" alt="Figura del personaje Mikasa Ackerman de Attack On Titan">
-            <div class="card-body ">                  
-              <p class="card-text">Good Smile Company presenta esta figura de PVC de Mikasa Ackerman, una de los protagonistas del exitoso manga y anime Attack On Titan. Mide 28 cm de alto e incluye base diorama para su exposición.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center ">Comprar</a>
+            <img src="../assets/img/figuras_2.jpg" class="card-img-top border border-dark"
+              alt="Figura del personaje Mikasa Ackerman de Attack On Titan">
+            <div class="card-body ">
+              <p class="card-text">Good Smile Company presenta esta figura de PVC de Mikasa Ackerman, una de los
+                protagonistas del exitoso manga y anime Attack On Titan. Mide 28 cm de alto e incluye base diorama para su
+                exposición.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Hermanos Elric</h2>
-            <img src="../assets/img/figuras_3.jpg" class="card-img-top border border-dark" alt="Figura de los personajes Edward y Alphonse Elric de Fullmetal Alchemist">
-            <div class="card-body">                  
-              <p class="card-text">Megahouse dentro de la serie G.E.M. presenta esta figura de Edward & Alphonse Elric de la serie de manga y anime FullMetal Alchemist. La figura está hecha de PVC y mide unos 30cm.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+            <img src="../assets/img/figuras_3.jpg" class="card-img-top border border-dark"
+              alt="Figura de los personajes Edward y Alphonse Elric de Fullmetal Alchemist">
+            <div class="card-body">
+              <p class="card-text">Megahouse dentro de la serie G.E.M. presenta esta figura de Edward & Alphonse Elric de
+                la serie de manga y anime FullMetal Alchemist. La figura está hecha de PVC y mide unos 30cm.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Meruem</h2>
-            <img src="../assets/img/figuras_4.jpg" class="card-img-top border border-dark" alt="Figura del personaje Meruem de Hunter x Hunter">
-            <div class="card-body">                  
-              <p class="card-text">Good Smile Company presenta, dentro de la colección Pop Up Parade, la figura del personaje Meruem. Está basada en su aparición en el anime "Hunter x Hunter" y mide 17 cm.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+            <img src="../assets/img/figuras_4.jpg" class="card-img-top border border-dark"
+              alt="Figura del personaje Meruem de Hunter x Hunter">
+            <div class="card-body">
+              <p class="card-text">Good Smile Company presenta, dentro de la colección Pop Up Parade, la figura del
+                personaje Meruem. Está basada en su aparición en el anime "Hunter x Hunter" y mide 17 cm.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
-        </div>                 
+        </div>
       </section>
       <!-- Card de productos REMERAS -->
       <section class="mb-2 mt-2">
@@ -126,37 +320,129 @@
         <div class="row justify-content-center">
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Remera-Rengoku</h2>
-            <img src="../assets/img/remera_1.jpg" class="card-img-top border border-dark" alt="Remera con el personaje Rengoku de Demon Slayer">
-            <div class="card-body">                  
+            <img src="../assets/img/remera_1.jpg" class="card-img-top border border-dark"
+              alt="Remera con el personaje Rengoku de Demon Slayer">
+            <div class="card-body">
               <p class="card-text">Remera con Rengoku de Demon Slayer. Gran variedad de talles!</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </section> 
+          </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Remera-L</h2>
-            <img src="../assets/img/remera_2.webp" class="card-img-top border border-dark" alt="Remera con el personaje L de Death Note">
-            <div class="card-body">                  
+            <img src="../assets/img/remera_2.webp" class="card-img-top border border-dark"
+              alt="Remera con el personaje L de Death Note">
+            <div class="card-body">
               <p class="card-text">Remera con el personaje "L" de Death Note. Gran variedad de talles!</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Remera-Makima</h2>
-            <img src="../assets/img/remera_3.webp" class="card-img-top border border-dark" alt="Remera con el personaje Makima de Chainsaw Man">
-            <div class="card-body">                  
+            <img src="../assets/img/remera_3.webp" class="card-img-top border border-dark"
+              alt="Remera con el personaje Makima de Chainsaw Man">
+            <div class="card-body">
               <p class="card-text">Remera con Makima de Chainsaw Man. Gran variedad de talles!</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Remera-Seiya</h2>
-            <img src="../assets/img/remera_4.webp" class="card-img-top border border-dark" alt="Remera con el personaje Seiya de Los Caballeros del Zodiaco">
-            <div class="card-body">                  
+            <img src="../assets/img/remera_4.webp" class="card-img-top border border-dark"
+              alt="Remera con el personaje Seiya de Los Caballeros del Zodiaco">
+            <div class="card-body">
               <p class="card-text">Remera de Seiya de Los Caballeros del Zodiaco. Gran variedad de talles!</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
-        </div>                 
+        </div>
       </section>
       <section class="mb-2 mt-2">
         <h2 class="text-center">Tazas y Mates!</h2>
@@ -164,37 +450,127 @@
         <div class="row justify-content-center">
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Mate-Pochita</h2>
-            <img src="../assets/img/taza_1.webp" class="card-img-top border border-dark" alt="Mate con forma de Pochita de ChainSaw Man">
-            <div class="card-body">                  
+            <img src="../assets/img/taza_1.webp" class="card-img-top border border-dark"
+              alt="Mate con forma de Pochita de ChainSaw Man">
+            <div class="card-body">
               <p class="card-text">Tomá unos ricos mates acompañado de Pochita</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </section> 
+          </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Taza-Dragon Ball</h2>
             <img src="../assets/img/taza_2.webp" class="card-img-top border border-dark" alt="Tazón de Dragon Ball">
-            <div class="card-body">                  
+            <div class="card-body">
               <p class="card-text">Taza de Dragon Ball. Varios diseños disponibles</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Taza-Luna</h2>
-            <img src="../assets/img/taza_3.webp" class="card-img-top border border-dark" alt="Taza de Luna de Sailor Moon">
-            <div class="card-body">                  
+            <img src="../assets/img/taza_3.webp" class="card-img-top border border-dark"
+              alt="Taza de Luna de Sailor Moon">
+            <div class="card-body">
               <p class="card-text">Taza de Luna, personaje de Sailor Moon.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
           <section class="card col-xl-3 col-md-6 col-sm-12 tarjetaProductos displayNoRelative">
             <h2 class="card-title">Taza-Pikachu</h2>
             <img src="../assets/img/taza_4.webp" class="card-img-top border border-dark" alt="Taza de Pikache de Pokémon">
-            <div class="card-body">                  
+            <div class="card-body">
               <p class="card-text">Taza de Pikachu! Varios Pokémon disponibles.</p>
-              <a href="#" class="btn border border-dark btn2 d-flex justify-content-center">Comprar</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn border border-dark btn2 mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comprar
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Comprar</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Seguro que quiere agregar este producto al carrito?</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn  border border-dark btn2 d-flex justify-content-center">Aceptar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
-        </div>                 
+        </div>
       </section>
     </main>
     <footer class="mx-auto border border-3 border-dark container-fluid">
@@ -202,9 +578,12 @@
         <h2>Dónde estamos</h2>
         <div class="col-xl-6 col-md-6 col-sm-12">
           <div>
-            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6664048545767!2d-58.45919562426167!3d-34.56200087296925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d3849c3221%3A0xc8999711cc581a5b!2sAv.%20Cabildo%20%26%20Av.%20Juramento%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1707359220793!5m2!1ses!2sar" width="200" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div> 
-        </div> 
+            <iframe class="w-100"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6664048545767!2d-58.45919562426167!3d-34.56200087296925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d3849c3221%3A0xc8999711cc581a5b!2sAv.%20Cabildo%20%26%20Av.%20Juramento%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1707359220793!5m2!1ses!2sar"
+              width="200" height="200" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
         <section class="col-xl-6 col-md-6 col-sm-12">
           <h2 class="fs-3">Dirección</h2>
           <p class="px-2">Cabildo y Juramento, Buenos Aires</p>
@@ -212,8 +591,8 @@
           <p class="px-2">11-1234-5678</p>
           <h2 class="fs-3">Email</h2>
           <p class="px-2">bluemoon.tienda@gmail.com</p>
-        </section>  
-      </section>     
+        </section>
+      </section>
       <section class="row">
         <h3 class="mt-2 fs-3">Conocenos en nuestras redes!</h3>
         <div>
