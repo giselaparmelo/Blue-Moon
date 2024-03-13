@@ -27,9 +27,15 @@ a:hover {
 
 .tarjetaProductos {
   background-color: #71f9f9;
-  border: 1px black solid img;
-  border-height: 350px;
-  border-width: auto;
+  border: 1px black solid;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 300px;
+  margin: 5px;
+  padding: 2px;
+}
+.tarjetaProductos img {
+  height: 350px;
 }
 
 @media (max-width: 768px) {

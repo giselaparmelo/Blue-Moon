@@ -27,16 +27,16 @@ a:hover{
     font-weight: bold;
 }
 
-
 .tarjetaProductos{
     background-color: $electric-blue;
-    border: $border-primary
-   
-    
-    
+    border: $border-primary;
+    border: 1px solid black ;
+    border-radius: 5px;
+    width: 300px;
+    margin: 5px;
+    padding: 2px;
     img{
        height: 350px;
-       width: auto; 
     }
 }
 
@@ -71,6 +71,7 @@ h2{
     border: 2px black solid;
     font-weight: bold;
 }
+
 
 footer{
     background-color:rgb(16, 16, 17);
