@@ -44,6 +44,10 @@ a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 5px;
+    width: 100%;
+  }
+  .tarjetaProductos {
+    width: 100%;
   }
 }
 h1 {
