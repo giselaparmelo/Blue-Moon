@@ -1,12 +1,12 @@
 footer{
-    background-color:rgb(16, 16, 17);
-    color: white;
+    background-color: $chinese-black-footer;
+    color: $withe;
     .iconoWsp{
         position: fixed;
         right:20px;
         bottom: 20px;
         .fa-whatsapp{
-            color: rgb(37, 211, 102);
+            color: $ufo-green;
             font-size: 3rem;
         }
     
@@ -19,11 +19,9 @@ footer{
     }
     .fa-x-twitter{
         font-size: 2rem;
-    }
-
-    
+    } 
 }
 
 footer h2{
-    color: white;
+    color: $withe;
 }
