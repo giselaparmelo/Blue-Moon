@@ -56,10 +56,16 @@ a:hover {
   margin: 5px;
   padding: 2px;
 }
+.tarjetaProductos:hover {
+  background-color: #2fc4d4;
+}
 .tarjetaProductos img {
   height: 350px;
 }
 
+.btn2 {
+  background-color: #71f9f9;
+}
 .btn2:hover {
   background-color: #7fffd4;
   cursor: pointer;
