@@ -32,7 +32,7 @@ h2 {
 }
 
 .navColor {
-  background-color: #100345;
+  background-color: rgb(8, 8, 53);
 }
 
 .logoNavBar {
@@ -43,7 +43,7 @@ h2 {
 }
 
 a:hover {
-  background-color: #231461;
+  text-decoration: underline;
   font-weight: bold;
 }
 
@@ -74,6 +74,9 @@ a:hover {
 @media (max-width: 768px) {
   .noImg {
     display: none;
+  }
+  body form {
+    width: 180%;
   }
 }
 .displayNoRelative {
