@@ -1,11 +1,13 @@
 h1{
     font-family:$font-family;
     color: $chinese-black;
-    font-weight:600;    
+    text-decoration: underline;
+    font-weight:600;
+    margin-bottom: 5px;   
 }
 
 h2{
-    font-family:$font-family;
-    color: $chinese-black;
+    @extend h1;
+    text-decoration: none;
     font-weight: 500;
 }
