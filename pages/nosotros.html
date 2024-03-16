@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/1ce4de538e.js" crossorigin="anonymous"></script>
     <title>Nosotros | Blue Moon</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <!-- AOA Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Estilos de Bootstrap -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <!-- Mi hoja de estilos propia -->
@@ -54,22 +56,28 @@
     <main class="container mx-auto main">
       <section>
         <h1 class="mt-2 text-center">Sobre Nosotros</h1>
-        <p class="mt-2 mx-2 fs-5">En Blue Moon, somos más que una tienda en línea; somos apasionados por el mundo del manga y el animé.</p>
 
-        <p class="mt-2 mx-2 fs-5">Desde nuestra fundación, nos hemos dedicado a ofrecerte una experiencia de compra única, donde puedes sumergirte en el fascinante universo del manga y el animé</p>
-
+        <div data-aos="fade-right">
+          <p class="mt-2 mx-2 fs-5">En Blue Moon, somos más que una tienda en línea; somos apasionados por el mundo del manga y el animé.</p>
+          <p class="mt-2 mx-2 fs-5">Desde nuestra fundación, nos hemos dedicado a ofrecerte una experiencia de compra única, donde puedes sumergirte en el fascinante universo del manga y el animé</p>
+        </div>
+        
         <h2 class="mt-2 text-center">Quienes Somos?</h2>
-        <p class="mt-2 mx-2 fs-5">Nuestro equipo está formado por verdaderos aficionados, comprometidos a proporcionarte una amplia gama de productos auténticos y de alta calidad que reflejen nuestra pasión compartida.</p>
-        <p class="mt-2 mx-2 fs-5">Ya sea que estés buscando las últimas novedades, figuras coleccionables, o simplemente quieras explorar nuevos mundos, estamos aquí para acompañarte en tu viaje.</p>
+
+        <div data-aos="fade-left">
+          <p class="mt-2 mx-2 fs-5">Nuestro equipo está formado por verdaderos aficionados, comprometidos a proporcionarte una amplia gama de productos auténticos y de alta calidad que reflejen nuestra pasión compartida.</p>
+          <p class="mt-2 mx-2 fs-5">Ya sea que estés buscando las últimas novedades, figuras coleccionables, o simplemente quieras explorar nuevos mundos, estamos aquí para acompañarte en tu viaje.</p>
+        </div>
 
         <h2 class="mt-2 text-center">Nuestro local</h2>
 
-        <p class="mt-2 mx-2 fs-5">Nuestro local en el corazón de la ciudad te da la bienvenida con su encanto único y ambiente relajado.</p>
-        <p class="mt-2 mx-2 fs-5">Con estanterías repletas de coloridos mangas que te invitan a sumergirte en fascinantes historias, una sección dedicada a figuras de colección que despiertan tu lado coleccionista, y rincones llenos de tazas y remeras con diseños personalizados que reflejan tu amor por la cultura otaku.</p>
-        <p class="mt-2 mx-2 fs-5">Déjate envolver por la atmósfera vibrante mientras exploras nuestros productos cuidadosamente seleccionados y encuentras ese artículo especial que hará las delicias de cualquier fanático del manga y el anime.</p>
-
-        <div class="d-flex justify-content-center">
-          <img class="imgTarjeta img-fluid mb-3 border border-dark rounded" src="../assets/img/nuestrolocal.webp" alt="Gente en nuestro local">
+        <div data-aos="fade-right">
+          <p class="mt-2 mx-2 fs-5">Nuestro local en el corazón de la ciudad te da la bienvenida con su encanto único y ambiente relajado.</p>
+          <p class="mt-2 mx-2 fs-5">Con estanterías repletas de coloridos mangas que te invitan a sumergirte en fascinantes historias, una sección dedicada a figuras de colección que despiertan tu lado coleccionista, y rincones llenos de tazas y remeras con diseños personalizados que reflejan tu amor por la cultura otaku.</p>
+          <p class="mt-2 mx-2 fs-5">Déjate envolver por la atmósfera vibrante mientras exploras nuestros productos cuidadosamente seleccionados y encuentras ese artículo especial que hará las delicias de cualquier fanático del manga y el anime.</p>
+          <div class="d-flex justify-content-center">
+            <img class="imgTarjeta img-fluid w-50 mb-3 border border-dark rounded" src="../assets/img/nuestrolocal.webp" alt="Gente en nuestro local">
+          </div>
         </div>
       </section>
     </main>
@@ -112,6 +120,10 @@
       </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 
 </html>
