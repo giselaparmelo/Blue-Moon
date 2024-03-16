@@ -32,6 +32,10 @@ h2 {
   font-weight: 500;
 }
 
+header {
+  z-index: 1050;
+}
+
 .navColor {
   background-color: rgb(8, 8, 53);
 }
@@ -52,12 +56,14 @@ a:hover {
   background-color: #71f9f9;
   border: 1px black solid;
   border-radius: 5px;
-  width: 300px;
   margin: 5px;
   padding: 2px;
+  width: 300px;
+  overflow: hidden;
 }
 .tarjetaProductos:hover {
-  background-color: #2fc4d4;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-image: linear-gradient(to left top, #00aef2, #00b1e5, #00b3d5, #00b4c3, #1bb3b0);
 }
 .tarjetaProductos img {
   height: 350px;
@@ -120,17 +126,11 @@ footer h2 {
 }
 
 @keyframes tamanio {
-  0% {
-    font-size: 1.8rem;
-  }
   50% {
-    font-size: 1.9rem;
-  }
-  75% {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   100% {
-    font-size: 32.8px;
+    font-size: 2rem;
   }
 }
 .animacion {
@@ -139,5 +139,5 @@ footer h2 {
   /*CANTIDAD DE REPETICIONES*/
   animation-iteration-count: 1;
   /*DURACIÓN DE LA ANIMACIÓN*/
-  animation-duration: 4s;
+  animation-duration: 0.4s;
 }/*# sourceMappingURL=estilo.css.map */

@@ -1,12 +1,10 @@
 .tarjetaProductos{
-    background-color: $electric-blue;
-    border: $border-primary;
-    border-radius: 5px;
+    @include prod($electric-blue,$border-primary,5px,5px,2px);
     width: 300px;
-    margin: 5px;
-    padding: 2px;
+    overflow:hidden;
     &:hover{
-        background-color:$electric-blue-dark;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        background-image: linear-gradient(to left top, #00aef2, #00b1e5, #00b3d5, #00b4c3, #1bb3b0);
     }
     img{
        height: 350px;

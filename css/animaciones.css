@@ -1,16 +1,10 @@
 @charset "UTF-8";
 @keyframes tamanio {
-  0% {
-    font-size: 1.8rem;
-  }
   50% {
-    font-size: 1.9rem;
-  }
-  75% {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   100% {
-    font-size: 32.8px;
+    font-size: 2rem;
   }
 }
 .animacion {
@@ -19,5 +13,5 @@
   /*CANTIDAD DE REPETICIONES*/
   animation-iteration-count: 1;
   /*DURACIÓN DE LA ANIMACIÓN*/
-  animation-duration: 4s;
+  animation-duration: 0.4s;
 }/*# sourceMappingURL=animaciones.css.map */

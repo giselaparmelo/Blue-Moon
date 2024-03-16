@@ -1,0 +1,8 @@
+@mixin prod($color, $borde,$borderradius, $margen, $padding){
+    background-color: $color;
+    border: $borde;
+    border-radius: $borderradius;
+    margin: $margen;
+    padding: $padding;
+
+}
