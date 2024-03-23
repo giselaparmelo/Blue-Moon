@@ -111,14 +111,20 @@ footer .iconoWsp .fa-whatsapp {
   color: #25d366;
   font-size: 3rem;
 }
-footer .fa-instagram {
+footer section div a i.fa-instagram.fa-brands {
   font-size: 2rem;
+  text-decoration: none;
+  color: white;
 }
 footer .fa-facebook {
   font-size: 2rem;
+  text-decoration: none;
+  color: white;
 }
 footer .fa-x-twitter {
   font-size: 2rem;
+  text-decoration: none;
+  color: white;
 }
 
 footer h2 {
