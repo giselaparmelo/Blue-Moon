@@ -29,6 +29,7 @@ h1, h2 {
 h2 {
   text-decoration: none;
   font-weight: 500;
+  margin-top: 5px;
 }
 
 header {
@@ -88,6 +89,7 @@ a:hover {
 @media (max-width: 768px) {
   .tarjetaProductos {
     width: 80%;
+    object-fit: cover;
   }
 }
 @media (max-width: 768px) {
