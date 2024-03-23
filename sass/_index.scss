@@ -1,0 +1,7 @@
+.escala{
+    &:hover{
+        scale: 1.06;
+        transition: all 0.4s;
+        border: $border-primary;
+    }
+}

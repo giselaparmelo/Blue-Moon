@@ -1,6 +1,7 @@
 footer{
     background-color: $chinese-black-footer;
     color: $withe;
+    margin-top: 10px;
     .iconoWsp{
         position: fixed;
         right:20px;
@@ -13,7 +14,7 @@ footer{
         }
     
     }
-    section div a i.fa-instagram.fa-brands{
+    .fa-instagram{
         font-size: 2rem;
         text-decoration: none;
         color:white;
