@@ -21,7 +21,6 @@ p span {
 
 h1, h2 {
   font-family: "Roboto", sans-serif;
-  text-decoration: underline;
   font-weight: 600;
   margin-bottom: 5px;
   color: #100345;
@@ -110,6 +109,8 @@ footer .iconoWsp {
 footer .iconoWsp .fa-whatsapp {
   color: #25d366;
   font-size: 3rem;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
 footer section div a i.fa-instagram.fa-brands {
   font-size: 2rem;
@@ -125,6 +126,9 @@ footer .fa-x-twitter {
   font-size: 2rem;
   text-decoration: none;
   color: white;
+}
+footer a {
+  text-decoration: none;
 }
 
 footer h2 {

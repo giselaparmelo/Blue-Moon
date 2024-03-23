@@ -8,6 +8,8 @@ footer{
         .fa-whatsapp{
             color: $ufo-green;
             font-size: 3rem;
+            background-color: $withe;
+            border-radius: 5px;
         }
     
     }
@@ -26,7 +28,11 @@ footer{
         text-decoration: none;
         color: white;
 
-    } 
+    }
+    a{
+        text-decoration: none;
+    }
+    
 }
 
 footer h2{
