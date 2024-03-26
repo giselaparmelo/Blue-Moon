@@ -86,6 +86,16 @@ a:hover {
   font-weight: bold;
 }
 
+.btn3 {
+  background-color: #71f9f9;
+}
+.btn3:hover {
+  background-color: #dfdfdf;
+  cursor: pointer;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .tarjetaProductos {
     width: 80%;

@@ -7,3 +7,13 @@
     }
     background-color: $electric-blue;
 }
+
+.btn3{
+    &:hover{
+        background-color: map-get($colores , $gray);
+        cursor: pointer;
+        border: $border-secondary;
+        font-weight: bold;
+    }
+    background-color: $electric-blue;
+}
